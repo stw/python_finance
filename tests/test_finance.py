@@ -1,8 +1,5 @@
-import sys, os
-sys.path.append(os.path.abspath(sys.path[0]) + '/../')
-
 import unittest
-from python_finance.src.finance import Finance
+from src.finance import Finance
 
 class TestFinance(unittest.TestCase):
     
